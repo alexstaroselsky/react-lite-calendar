@@ -1,0 +1,20 @@
+.month-selector {
+  position: absolute;
+  top: 75px;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  transition: all 300ms;
+  transform: scale(1.2);
+  opacity: 0;
+  visibility: hidden;
+  z-index: 1;
+  text-align: center;
+}
+
+.month-selector.open {
+  transform: scale(1);
+  visibility: visible;
+  opacity: 1;
+}

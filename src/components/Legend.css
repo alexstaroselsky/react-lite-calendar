@@ -1,0 +1,11 @@
+.legend {
+  color: #4a4a4a;
+  padding: 10px 0;
+  margin-bottom: 5px;
+}
+
+.legend span {
+  width: 14.285714%;
+  display: inline-block;
+  text-align: center;
+}

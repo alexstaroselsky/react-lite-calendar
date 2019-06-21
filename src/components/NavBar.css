@@ -1,0 +1,44 @@
+.heading-section {
+  font-size: 20px;
+  padding: 24px 15px;
+  display: flex;
+  justify-content: space-between;
+  color: #3d4548;
+  font-weight: bold;
+}
+
+.label {
+  cursor: pointer;
+}
+
+.control {
+  padding: 0 8px;
+  opacity: 0.2;
+  transform: translateY(3px);
+}
+
+.control.enabled {
+  opacity: 1;
+  cursor: pointer;
+}
+
+.arrow {
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border-style: solid;
+  border-color: #a9a9a9;
+  border-width: 0;
+  border-bottom-width: 2px;
+  border-right-width: 2px;
+}
+
+.arrow.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.arrow.left {
+  transform: rotate(135deg);
+  -webkit-transform: rotate(135deg);
+}
