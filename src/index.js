@@ -16,9 +16,10 @@ function Datepicker({
   onClosed,
   onChange,
   format = "dddd, MMMM D, YYYY",
+  value = new Date(),
   ...props
 }) {
-  const today = new Date();
+  const today = new Date(value.getTime());
 
   const [isOpen, setIsOpen] = useState(false);
   const [month, setMonth] = useState(today.getMonth());
@@ -111,7 +112,8 @@ Datepicker.propTypes = {
   selectableCallback: PropTypes.func,
   onOpened: PropTypes.func,
   onClosed: PropTypes.func,
-  onChange: PropTypes.func
+  onChange: PropTypes.func,
+  value: PropTypes.instanceOf(Date)
 };
 
 export default Datepicker;

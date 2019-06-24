@@ -1,17 +1,29 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 
-import ReactSvelteDatepicker from "../../src";
+import SvelteCalendar from "../../src";
 
 class Demo extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      date: new Date()
+    };
+  }
+
+  handleChange = e => this.setState({ date: e });
+  handleOpened = () => console.log("opened");
+  handleClosed = () => console.log("closed");
+
   render() {
     return (
       <div>
-        <h1>react-svelte-calendar Demo</h1>
-        <ReactSvelteDatepicker
-          onOpened={() => console.log("onOpened")}
-          onClosed={() => console.log("onClosed")}
-          onChange={e => console.log(e)}
+        <SvelteCalendar
+          onOpened={this.handleOpened}
+          onClosed={this.handleClosed}
+          onChange={this.handleChange}
+          value={this.state.date}
         />
       </div>
     );
