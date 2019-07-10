@@ -3,7 +3,7 @@ module.exports = {
   npm: {
     esModules: true,
     umd: {
-      global: 'ReactSvelteCalendar',
+      global: 'ReactLiteCalendar',
       externals: {
         react: 'React'
       }

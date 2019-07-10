@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
 
-import SvelteCalendar from "../../src";
+import LiteCalendar from "../../src";
 
 class Demo extends Component {
   constructor(props) {
@@ -19,7 +19,7 @@ class Demo extends Component {
   render() {
     return (
       <div>
-        <SvelteCalendar
+        <LiteCalendar
           onOpened={this.handleOpened}
           onClosed={this.handleClosed}
           onChange={this.handleChange}

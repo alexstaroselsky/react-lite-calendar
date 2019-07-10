@@ -1,4 +1,4 @@
-# react-svelte-calendar
+# react-lite-calendar
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
@@ -10,7 +10,7 @@ React calendar component:
 ### Installation
 
 ```
-npm install react-svelte-calendar
+npm install react-lite-calendar
 ```
 
 ### Installation
@@ -19,7 +19,7 @@ Usage:
 
 ```js
 import React, { Component } from "react";
-import SvelteCalendar from "react-svelte-calendar";
+import LiteCalendar from "react-lite-calendar";
 
 class App extends Component {
   state = {
@@ -33,7 +33,7 @@ class App extends Component {
   render() {
     return (
       <div>
-        <SvelteCalendar
+        <LiteCalendar
           onOpened={this.handleOpened}
           onClosed={this.handleClosed}
           onChange={this.handleChange}

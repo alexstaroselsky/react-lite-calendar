@@ -1,7 +1,7 @@
 {
-  "name": "react-svelte-calendar",
+  "name": "react-lite-calendar",
   "version": "0.0.1",
-  "description": "react-svelte-calendar React component",
+  "description": "React lite calendar component",
   "main": "lib/index.js",
   "module": "es/index.js",
   "files": [
@@ -44,10 +44,15 @@
     "react": "^16.8.6",
     "react-dom": "^16.8.6"
   },
-  "author": "",
-  "homepage": "",
+  "author": {
+    "name": "Alexander Staroselsky",
+    "url": "https://github.com/alexstaroselsky"
+  },
   "license": "MIT",
-  "repository": "",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/alexstaroselsky/react-svelte-calendar.git"
+  },
   "keywords": [
     "react-component"
   ]
