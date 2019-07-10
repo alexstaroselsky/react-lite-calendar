@@ -8,7 +8,6 @@ import Month from "./components/Month";
 import { getMonths, getMonthIndex } from "./helpers";
 import "./index.css";
 
-// https://github.com/6eDesign/svelte-calendar
 function Datepicker({
   start = new Date(1987, 9, 29),
   end = new Date(2020, 9, 29),

@@ -30,7 +30,10 @@
     "react": "16.x"
   },
   "devDependencies": {
-    "babel-eslint": "^9.0.0",
+    "@typescript-eslint/eslint-plugin": "^1.11.0",
+    "@typescript-eslint/parser": "^1.11.0",
+    "acorn": "^6.2.0",
+    "babel-eslint": "^10.0.2",
     "eslint": "^5.16.0",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-config-react-app": "^4.0.1",
@@ -39,6 +42,7 @@
     "eslint-plugin-jsx-a11y": "^6.2.1",
     "eslint-plugin-react": "^7.13.0",
     "eslint-plugin-react-hooks": "^1.5.0",
+    "inferno": "^5.6.1",
     "nwb": "^0.23.0",
     "prettier-eslint": "^8.8.2",
     "react": "^16.8.6",
@@ -51,7 +55,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/alexstaroselsky/react-svelte-calendar.git"
+    "url": "https://github.com/alexstaroselsky/react-lite-calendar.git"
   },
   "keywords": [
     "react-component"
